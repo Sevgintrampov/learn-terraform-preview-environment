@@ -12,7 +12,7 @@ jobs:
     name: "Build and Deploy Preview Environment"
     runs-on: ubuntu-latest
     env:
-      tfcWorkspaceName: hcup-be-${{ github.head_ref }}
+      tfcWorkspaceName: hcup-be-shared
       tfcOrg: strampov_test
     steps:
       - name: Checkout
